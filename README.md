@@ -10,7 +10,7 @@ Make sure you have PHP 8.0 or higher installed.
 ## Installation
 Clone the repository 
 ```
-$ git clone https://github.com/danielcasta0398/waterjugchallenge.git
+git clone https://github.com/danielcasta0398/waterjugchallenge.git
 ```
 # REST API
 The REST API to the example app is described below.
