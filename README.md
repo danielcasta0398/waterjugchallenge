@@ -26,9 +26,9 @@ This is an example of the JSON object in the body of the request:
 
 ```json
 {
-    "x" : 10,
-    "y" : 8,
-    "z" : 2
+    "bucketx" : 2,
+    "buckety" : 10,
+    "amount_wanted_z" : 4
 }
 ```
 
@@ -40,6 +40,7 @@ This is an example of the JSON object in the body of the request:
 {
     "1step": "Fill bucket X",
     "2step": "Transfer bucket X to bucket Y",
-    "3step": "Dump bucket Y. Solved"
+    "3step": "Fill bucket X",
+    "4step": "Transfer bucket X to bucket Y. Solved"
 }
 ```
