@@ -9,11 +9,11 @@ class WaterController {
 
       $info = json_decode($data, true);
 
-      if (!empty($info['x']) && !empty($info['y']) && !empty($info['z'])) {
+      if (!empty($info['bucketx']) && !empty($info['buckety']) && !empty($info['amount_wanted_z'])) {
 
-         $x = $info['x'];
-         $y = $info['y'];
-         $z = $info['z'];
+         $x = $info['bucketx'];
+         $y = $info['buckety'];
+         $z = $info['amount_wanted_z'];
 
          if ($z > $y && $z > $x) {
             return json_encode(array("message" => "No Solution"));
